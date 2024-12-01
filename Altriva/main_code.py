@@ -10,7 +10,7 @@ from langchain_ollama.llms import OllamaLLM
 from langchain_core.prompts import ChatPromptTemplate
 
 def load_documents():
-    root_folder = "/Users/mohithsai/Artificial Intelligance/Llama/dataset"
+    root_folder = "/dataset"
     loader = DirectoryLoader(
         path=root_folder,
         glob="*.pdf",
